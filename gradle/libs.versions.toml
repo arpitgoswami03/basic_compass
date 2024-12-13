@@ -1,0 +1,56 @@
+[versions]
+activityKtx = "1.9.3"
+agp = "8.6.1"
+androidGradle = "8.7.3"
+animationCoreAndroid = "1.7.6"
+appcompat = "1.7.0"
+appcompatV7 = "28.0.0"
+constraintlayout = "2.2.0"
+coreKtxVersion = "1.15.0"
+gradle = "8.1.4"
+kotlin = "1.9.10"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinGradlePlugin = "1.9.10"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.04.01"
+material = "1.12.0"
+activity = "1.9.3"
+material3Android = "1.3.1"
+uiGraphicsAndroid = "1.7.6"
+junitKtx = "1.2.1"
+monitor = "1.7.2"
+
+[libraries]
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-animation-core-android = { module = "androidx.compose.animation:animation-core-android", version.ref = "animationCoreAndroid" }
+androidx-appcompat-v170 = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = "androidx.core:core-ktx:1.15.0"
+androidx-appcompat = "androidx.appcompat:appcompat:1.7.0"
+androidx-core-ktx-v1150 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-material3-android = { module = "androidx.compose.material3:material3-android", version.ref = "material3Android" }
+androidx-ui-graphics-android = { module = "androidx.compose.ui:ui-graphics-android", version.ref = "uiGraphicsAndroid" }
+appcompat-v7 = { module = "com.android.support:appcompat-v7", version.ref = "appcompatV7" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+gradle-v861 = { module = "com.android.tools.build:gradle", version.ref = "androidGradle" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+material = "com.google.android.material:material:1.12.0"
+material-v1120 = { module = "com.google.android.material:material", version.ref = "material" }
+coroutines-android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+room-runtime = "androidx.room:room-runtime:2.6.1"
+room-compiler = "androidx.room:room-compiler:2.6.1"
+circleimageview = "de.hdodenhof:circleimageview:3.1.0"
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+androidx-monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+
